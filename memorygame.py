@@ -5,7 +5,7 @@ list = []
 round = 1
 
 
-GAME_DIF = input("Choose your difficulty!\na)Easy\nb)Medium\nc)Hard\nd)Impossible\n\n ")
+GAME_DIF = input("Choose your difficulty!\na)Easy\nb)Medium\nc)Hard\nd)Impossible\n")
 
 if GAME_DIF == "a":
     n = 2.5
@@ -48,14 +48,14 @@ if x != y:
     print("You lost!")
     sleep(2)
     clear()
-AGAIN = input("Do you want to play again?\nEnter Y for YES or N for NO ")
+AGAIN = input("Do you want to play again?\nEnter Y for YES or N for NO\n")
 
 while AGAIN == "Y":
     list = []
     round = 1
 
 
-    GAME_DIF = input("Choose your difficulty!\na)Easy\nb)Medium\nc)Hard\nd)Impossible\n\n ")
+    GAME_DIF = input("Choose your difficulty!\na)Easy\nb)Medium\nc)Hard\nd)Impossible\n")
 
     if GAME_DIF == "a":
         n = 2.5
@@ -96,6 +96,6 @@ while AGAIN == "Y":
         print("You lost!")
         sleep(2)
         clear()
-    AGAIN = input("Do you want to play again?\nEnter Y for YES or N for NO ")
+    AGAIN = input("Do you want to play again?\nEnter Y for YES or N for NO\n")
 
 exit()
