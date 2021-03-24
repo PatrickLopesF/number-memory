@@ -46,7 +46,7 @@ while x == y:
 
 if x != y:
     print("You lost!")
-    sleep(2.5)
+    sleep(2)
     clear()
 AGAIN = input("Do you want to play again?\nEnter Y for YES or N for NO ")
 
