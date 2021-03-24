@@ -21,7 +21,7 @@ else:
 def clear():
     if name == 'nt':
         _ = system('cls')
-sleep(n)
+sleep(1)
 clear()
 list.append(random.randint(1, 9))
 x = ''.join(str(e) for e in list)
@@ -46,6 +46,7 @@ while x == y:
 
 if x != y:
     print("You lost!")
+    print("Your score was: " + str(round - 1))
     sleep(2)
     clear()
 AGAIN = input("Do you want to play again?\nEnter Y for YES or N for NO\n")
@@ -70,7 +71,7 @@ while AGAIN == "Y":
         print("Invalid input.")
 
     
-    sleep(n)
+    sleep(1)
     clear()
     list.append(random.randint(1, 9))
     x = ''.join(str(e) for e in list)
@@ -95,6 +96,7 @@ while AGAIN == "Y":
 
     if x != y:
         print("You lost!")
+        print("Your score was: " + str(round - 1))
         sleep(2)
         clear()
     AGAIN = input("Do you want to play again?\nEnter Y for YES or N for NO\n")
