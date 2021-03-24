@@ -8,13 +8,13 @@ round = 1
 GAME_DIF = input("Choose your difficulty!\na)Easy\nb)Medium\nc)Hard\nd)Impossible\n")
 
 if GAME_DIF == "a":
-    n = 2.5
+    n = 2.25
 elif GAME_DIF == "b":
     n = 1.75
 elif GAME_DIF == "c":
-    n = 1
+    n = 1.25
 elif GAME_DIF == "d":
-    n = 0.5
+    n = 0.75
 else:
     print("Invalid input.")
 
@@ -49,6 +49,7 @@ if x != y:
     sleep(2)
     clear()
 AGAIN = input("Do you want to play again?\nEnter Y for YES or N for NO\n")
+clear()
 
 while AGAIN == "Y":
     list = []
@@ -97,5 +98,6 @@ while AGAIN == "Y":
         sleep(2)
         clear()
     AGAIN = input("Do you want to play again?\nEnter Y for YES or N for NO\n")
+    clear()
 
 exit()
